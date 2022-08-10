@@ -147,17 +147,25 @@ button:active {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    justify-itens: center;
-    align-itens: center;
+    justify-items: center;
     background: var(--primary-color);
-    padding: 15px;
     color: white;
-}
-
-.footer-page span {
-    color: red;
+    padding: 15px;
+    align-items: center;
+    
 }
 
 .footer-page a {
     text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+.footer-page a span {
+    color: red;
+    font-size: 20px;
+}
+
+.footer-page small {
+    font-size: 20px;
 }
