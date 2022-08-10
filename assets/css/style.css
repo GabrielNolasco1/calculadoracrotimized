@@ -148,8 +148,10 @@ button:active {
     flex-direction: column;
     justify-content: center;
     justify-itens: center;
+    align-itens: center;
     background: var(--primary-color);
     padding: 15px;
+    color: white;
 }
 
 .footer-page span {
