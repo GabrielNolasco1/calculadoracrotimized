@@ -40,9 +40,11 @@ body {
 
 .container {
     max-width: 1080px;
-    margin: 50px 30px;
+    margin: 50px auto;
     background: #FFF;
     border-radius: 10px;
+    margin-left: 20px;
+    margin-rigth: 20px;
 }
 
 thead {
