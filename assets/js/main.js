@@ -131,9 +131,9 @@ function adicionaValores() {
     let listaCh;
     let listaNotas;
 
-    for (let i = 0; i < listaDeValoresNota.length; i++) {
-        listaCh = listaDeValoresCh[i];
-        listaNotas = listaDeValoresNota[i];
+    for (let indice in listaDeValoresNota) {
+        listaCh = listaDeValoresCh[indice];
+        listaNotas = listaDeValoresNota[indice];
         criaCelulaComValoresGuardados(listaCh, listaNotas)
     } 
 }
