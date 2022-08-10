@@ -142,3 +142,11 @@ button:hover {
 button:active {
     background: var(--primary-color-claro);
 }
+
+.footer-page {
+    background: var(--primary-color);
+}
+
+.footer-page span {
+    background: red;
+}
