@@ -16,7 +16,6 @@ function criaLinha() {
 function criaCelulaTotal() {
     const td = document.createElement('td');
     td.setAttribute('class', 'total celula');
-    td.setAttribute('class', 'total celula');
     return td;
 }
 
