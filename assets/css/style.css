@@ -144,9 +144,18 @@ button:active {
 }
 
 .footer-page {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-itens: center;
     background: var(--primary-color);
+    padding: 15px;
 }
 
 .footer-page span {
-    background: red;
+    color: red;
+}
+
+.footer-page a {
+    text-decoration: none;
 }
