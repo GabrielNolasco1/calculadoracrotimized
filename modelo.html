@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modelo</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <section class="container">
+        <header>
+            <div class="title">
+                <h1>Calcular Coeficiente de Rendimento - CR</h1>
+            </div>
+            <h3>O que é Coeficiente de Rendimento?</h2>
+            <p>CÉ a média ponderada das notas de suas disciplinas durante o período letivo. Normalmente, o critério 'peso' é definido utilizando a carga horária.</p>
+            <p>Este coeficiente expressa a nota média que o aluno tira em uma prova. Por exemplo: Se o seu CR é 8.5, significa que, em média, a cada prova realizada, sua nota é 8.5. Este coeficiente é medido através da seguinte fórmula:</p>
+            <div class="formula">
+                <img src="./img/formulacoeficiente.png" alt="">
+                <table class="table-cr">
+                    <thead>
+                        <tr>
+                            <td class="title-cr">CR CALCULADO</td>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="cr">10</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            
+        </header>
+        
+        <div class="tabela-direita">
+            <table class="table">
+                <thead>
+                    <tr>
+                        <td>Nota</td>
+                        <td>Carga Horária</td>
+                        <td>Total</td>
+                    </tr>
+                </thead>
+                <tbody class="tbody">
+                    <tr class="linha">
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <tr class="foot-buttons">
+                        <td><button class="inserir">Inserir</button></td>
+                        <td><button class="remover">Remover</button></td>
+                        <td><button class="calcular">Calcular</button></td>
+                    </tr>
+                </tfoot>
+            </table>
+        </div>
+
+    </section>
+    
+    <script src="./js/script.js"></script>
+</body>
+
+</html>
